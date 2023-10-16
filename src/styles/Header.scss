@@ -1,0 +1,29 @@
+@import "./properties";
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid $border-color-grey;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    
+    .logo {
+      width: 35%;
+    }
+    
+    .headerIcons {
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+      i {
+        font-size: 30px;
+        margin:  auto;
+      }
+    }
+
+  }
+}
