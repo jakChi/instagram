@@ -1,0 +1,23 @@
+@import "./properties";
+
+.card {
+  width: 60%;
+  margin: auto;
+  background-color: $background-grey;
+  border-radius: 10px;
+}
+
+.cardHeader {
+  width: 100%;
+  display: flex;
+}
+
+.cardHeader > img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.cardBody {
+  width: 60%;
+  margin: auto;
+}

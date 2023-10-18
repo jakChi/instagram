@@ -1,7 +1,5 @@
-
-
 const ProfileIcon = () => {
-  const imgSrc = "https://picsum.photos/200 ";
+  const imgSrc = "https://picsum.photos/200";
 
   return (
     <div>

@@ -6,6 +6,8 @@ nav {
   left: 0;
   width: 100%;
   border-bottom: 1px solid $border-color-grey;
+  background-color: $background-dark;
+  color: $font-color-footer;
 
   .header {
     display: flex;
